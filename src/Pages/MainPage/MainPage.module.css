@@ -1,0 +1,7 @@
+.main_block {
+    width: 100vw;
+    height: 100vh;
+    background:
+      linear-gradient(to bottom left, transparent 50%,orange 1%) left / 30% 100%;
+    background-repeat:no-repeat;
+}
