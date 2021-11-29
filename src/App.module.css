@@ -1,0 +1,4 @@
+.main_block {
+  display: grid;
+  grid-template-columns: 10fr 0.5fr;
+}

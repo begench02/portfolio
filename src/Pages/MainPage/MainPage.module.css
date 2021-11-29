@@ -1,7 +1,8 @@
 .main_block {
-    width: 100vw;
-    height: 100vh;
-    background:
-      linear-gradient(to bottom left, transparent 50%,orange 1%) left / 30% 100%;
-    background-repeat:no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  width: 100%;
+  height: 100vh;
 }

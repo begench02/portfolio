@@ -1,0 +1,25 @@
+.main_block {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+    justify-items: center;
+    align-items: center;
+}
+
+.image {
+    border-radius: 20px;
+    height: 85%;
+    z-index: 1;
+}
+
+.orange_block {
+    width: 55%;
+    height: 120vh;
+    position: absolute;
+    top: -10%;
+    left: -15%;
+    background-color: orange;
+    transform: rotate(-14deg);
+  }

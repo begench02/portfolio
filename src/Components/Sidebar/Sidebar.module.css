@@ -1,0 +1,18 @@
+.main_block {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    position: sticky;
+    grid-template-rows: 1fr 10fr;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    color: #fff;
+}
+
+.sections_block {
+    display: grid;
+    align-items: center;
+    align-self: center;
+    grid-gap: 2rem;
+}
