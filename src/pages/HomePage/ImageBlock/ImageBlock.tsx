@@ -1,4 +1,6 @@
-import AuthorImage from 'Images/author.jpg';
+// Images
+import AuthorImage from 'images/author.jpg';
+// Styles
 import styles from './ImageBlock.module.css';
 
 export const ImageBlock = () => {

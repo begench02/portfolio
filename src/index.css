@@ -1,6 +1,17 @@
 body {
   background-color: #000;
+  color: #fff;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text_orange {
+  color: var(--color-orange);
+}
+
+:root {
+  --color-orange: #FDB32A;
+  --color-light-black: #2B2A2A;
 }

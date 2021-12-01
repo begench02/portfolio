@@ -1,10 +1,10 @@
-//@ts-ignore
+// Components
 import { ImageBlock } from './ImageBlock/ImageBlock';
-//@ts-ignore
-import styles from './MainPage.module.css';
 import { TextBlock } from './TextBlock/TextBlock';
+// Styles
+import styles from './HomePage.module.css';
 
-export const MainPage = () => {
+export const HomePage = () => {
     return (
         <div className={styles.main_block}>
             <ImageBlock />

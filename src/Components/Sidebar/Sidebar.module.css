@@ -6,13 +6,48 @@
     grid-template-rows: 1fr 10fr;
     top: 0;
     right: 0;
-    background-color: blue;
     color: #fff;
 }
 
 .sections_block {
     display: grid;
     align-items: center;
+    justify-items: center;
+}
+
+.lightbulb_block {
+    display: grid;
+    justify-self: center;
     align-self: center;
-    grid-gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--color-light-black);
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.lightbulb_block svg{
+    width: 35px;
+    height: 35px;
+}
+
+.navbar div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--color-light-black);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.sections_block div svg {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.active_route div {
+    background-color: var(--color-orange) !important;
 }
