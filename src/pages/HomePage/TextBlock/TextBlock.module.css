@@ -4,8 +4,59 @@
 
 .title {
     font-size: 50px;
+    margin: 0;
 }
 
 .name_text {
     color: #FFB400;
+}
+  
+.typing_demo {
+  width: 41ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+
+@media(max-width: 1280px) {
+  .main_block {
+    margin: 0 50px;
+    width: 90%;
+  }
+}
+
+@media(max-width: 1024px) {
+  .main_block {
+    text-align: center;
+  }
+  .main_block h1, h2 {
+    font-size: 38px !important;
+  }
+  .main_block div {
+    margin: 0 auto;
+  }
+  .main_block p {
+    padding: 0 50px !important;
+  }
+  .typing_demo {
+    text-align: center;
+    width: 31ch;
+  }
 }

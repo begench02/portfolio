@@ -37,7 +37,3 @@ function App() {
 }
 
 export default App;
-
-{/* <Route path={portfolio} element={<HomePage />}/>
-          <Route path={contacts} element={<HomePage />}/>
-          <Route path={blog} element={<HomePage />}/> */}

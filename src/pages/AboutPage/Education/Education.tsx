@@ -25,24 +25,24 @@ const EducationBlockCreate = (props: any) => {
 export const Education = () => {
     const educationBlocksContent: EducationBlockContentType[] = [
         {
-            date: '2018-PRESENT',
-            title: 'WEB DEVELOPER - ENVATO',
-            text: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+            date: '2017-2019',
+            title: 'Mathematics - Gujurly nesil',
+            text: 'Studied math for 2 years. Covered all school knowledges'
         },
         {
-            date: '2013 - 2018',
-            title: 'UI/UX DESIGNER - THEMEFOREST',
-            text: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+            date: '2018 - 2020',
+            title: 'English - Gujurly nesil',
+            text: 'Learned english from beginner to advanced level'
         },
         {
-            date: '2005-2013',
-            title: 'CONSULTANT - VIDEOHIVE',
-            text: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+            date: '2018-2019',
+            title: 'Programming - SoloLearn',
+            text: 'Learned base and syntax of programming'
         },
         {
-            date: '2015',
-            title: 'ENGENEERING DEGREE - OXFORD UNIVERSITY',
-            text: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit'
+            date: '2020 - ',
+            title: 'Computer Science - TSU',
+            text: 'Learned Web protocols, encryption, pascal, с, с++'
         },
     ];
 

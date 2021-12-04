@@ -1,3 +1,150 @@
+.main_block {
+    margin: 70px 200px;
+}
+
 .title {
     text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.content_block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content_title {
+    font-size: 30px;
+    margin: 0;
+}
+
+.first_section {
+    margin-right: 100px;
+}
+
+.first_section svg {
+    color: orange;
+    width: 40px;
+    height: 40px;
+}
+
+.location_block, .email_block, .phone_block {
+    display: grid;
+    align-items: start;
+    justify-items: start;
+    grid-template-columns: 50px 1fr;
+    margin: 30px 0;
+}
+
+.location_block h5, .email_block h5, .phone_block h5 {
+    margin: 0;
+}
+
+.social_links_icons_block {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    align-items: start;
+    justify-items: start;
+}
+
+.social_links_icons_block div {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    background-color: #2B2A2A;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social_links_icons_block svg {
+    color: #fff;
+    transition: 1s;
+    width: 20px;
+    height: 20px;
+
+}
+
+.social_links_icons_block div:hover {
+    background-color: orange;
+}
+
+.second_section {
+    height: 25rem;
+    width: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'n e'
+                         's s'
+                         'm m'
+                         'm m';
+}
+
+.second_section > div {
+    margin-bottom: 20px;
+}
+
+.second_section input{
+    background-color: #252525;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+.second_section textarea {
+    padding: 20px;
+    background-color: #252525;
+    color: #fff !important;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.name_field {
+    grid-area: n;
+    margin-right: 30px !important;
+    margin-bottom: 20px;
+} 
+
+.email_field {
+    grid-area: e;
+    margin-bottom: 20px;
+
+}
+
+.subject_field {
+    grid-area: s;
+    margin-bottom: 20px;
+
+}
+
+.message_field {
+    resize: vertical;
+    grid-area: m;
+}
+
+.send_message {
+    border-radius: 20px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 5px;
+    width: 200px;
+    height: 60px;
+}
+
+
+@media(max-width: 1024px) {
+    .content_block {
+        grid-template-columns: 1fr;
+    }
+    .first_section {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    .main_block {
+        margin: 30px 50px;
+    }
 }

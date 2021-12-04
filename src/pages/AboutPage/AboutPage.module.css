@@ -7,6 +7,7 @@
     text-align: center;
     justify-self: center;
     font-size: 36px;
+    margin-left: 100px;
 }
 
 .info_block {
@@ -16,9 +17,14 @@
     text-align: start;
 }
 
+.info_block h2 {
+    margin-left: 50px;
+} 
+
 .personal_info_block {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
 }
 
 .gray_text {
@@ -79,4 +85,27 @@
 
 .skills_progress_block svg {
     width: 150px;
+}
+
+@media(max-width: 1024px) {
+    .info_block {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-gap: 1rem;
+    }
+    .personal_info_block {
+        width: 700px;
+    }
+    .experience_block {
+        margin: 0;
+        margin-top: 50px;
+        width: 700px;
+        grid-gap: 3rem;
+    }
+    .experience_block div {
+        width: 100%;
+    }
+    .skills_progress_block {
+        grid-gap: 5rem;
+    }
 }

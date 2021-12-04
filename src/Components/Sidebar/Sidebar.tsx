@@ -14,15 +14,15 @@ export const Sidebar = () => {
     
     return (
         <div className={styles.main_block}>
-            <div className={styles.lightbulb_block}> <LightbulbIcon /> </div>
+            <div></div>
             <div className={styles.sections_block}>
                 <div className={styles.navbar}>
                     <NavLink className={(navData) => navData.isActive ? styles.active_route : ''} to='/home'> <div> <HomeIcon /> </div> </NavLink>
                     <NavLink className={(navData) => navData.isActive ? styles.active_route : ''} to='/about'> <div> <PersonIcon /> </div> </NavLink>
-                    <NavLink className={(navData) => navData.isActive ? styles.active_route : ''} to='/portfolio'> <div> <BusinessCenterIcon /> </div> </NavLink>
+                    {/* <NavLink className={(navData) => navData.isActive ? styles.active_route : ''} to='/portfolio'> <div> <BusinessCenterIcon /> </div> </NavLink> */}
                     <NavLink className={(navData) => navData.isActive ? styles.active_route : ''} to='/contacts'> <div> <ForumIcon /> </div> </NavLink>
-                    </div>
                 </div>
+            </div>
         </div>
     );
 };

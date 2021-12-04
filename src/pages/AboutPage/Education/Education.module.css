@@ -7,11 +7,10 @@
 .block_title {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
 }
 
 .content_block {
-    margin: 0 400px;
+    margin: 0 200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 100px;
@@ -26,7 +25,7 @@
 .icon_block {
     z-index: 1;
     background-color: var(--color-orange);
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: grid;
     align-self: start;
     justify-self: center;
@@ -37,8 +36,7 @@
 .education_block:after {
     content: '';
     position: absolute;
-    top: 60px;
-    height: 120px;
+    height: 100%;
     left: 15px;
     bottom: 0;
     border-left: 1px solid #fff;
@@ -63,4 +61,10 @@
     background-color: #212121;
     padding: 7px;
     border-radius: 20px;
+}
+
+@media(max-width: 1024px) {
+    .content_block {
+        margin: 0 50px;
+    }
 }
