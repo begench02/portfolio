@@ -1,5 +1,5 @@
 // Images
-import AuthorImage from '../../../images/author.jpg';
+import AuthorImage from 'images/author.jpg';
 // Styles
 import styles from './ImageBlock.module.css';
 

@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
 // Components
-// import { Sidebar } from 'components/Sidebar/Sidebar';
+import { Sidebar } from 'components/Sidebar/Sidebar';
 import { HomePage } from 'pages/HomePage/HomePage';
 // Styles
 import styles from './App.module.css';
@@ -31,7 +31,7 @@ function App() {
           
         </Routes>
       </Suspense>
-      {/* <Sidebar /> */}
+      <Sidebar />
     </div>
   );
 }

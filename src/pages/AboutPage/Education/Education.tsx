@@ -50,8 +50,8 @@ export const Education = () => {
         <div>
             <h2 className={styles.title}>EXPERIENCE & EDUCATION</h2>
             <div className={styles.content_block}>
-                {educationBlocksContent.map((educationBlockContent: EducationBlockContentType) => (
-                    <EducationBlockCreate date={educationBlockContent.date} title={educationBlockContent.title} text={educationBlockContent.text} />
+                {educationBlocksContent.map((educationBlockContent: EducationBlockContentType, index: number) => (
+                    <EducationBlockCreate date={educationBlockContent.date} key={index} title={educationBlockContent.title} text={educationBlockContent.text} />
                 ))}
             </div>
         </div>
