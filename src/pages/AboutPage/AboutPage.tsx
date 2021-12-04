@@ -47,8 +47,8 @@ export const AboutPage = () => {
                             <p>-HAPPY CUSTOMERS</p>
                         </div>
                         <div>
-                            <h2> 53<sup>+</sup> </h2>
-                            <p>-AWARDS WON</p>
+                            <h2> 15<sup>+</sup> </h2>
+                            <p>-KNOW TECHNOLOGIES</p>
                         </div>
                     </div>
                 </div>
