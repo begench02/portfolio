@@ -2,19 +2,19 @@
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import { LinkedIn } from '@mui/icons-material';
+// import { LinkedIn } from '@mui/icons-material';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import emailjs from 'emailjs-com';
 // Styles
 import styles from './Contacts.module.css';
 import { TextField } from '@mui/material';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
 
 export const Contacts = () => {
     // Local state
-    const { register, handleSubmit } = useForm();
+    const { register } = useForm();
 
 
     // Functions

@@ -1,12 +1,8 @@
 import { NavLink } from 'react-router-dom';
 // Components
-import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import HomeIcon from '@mui/icons-material/Home';
-import WorkIcon from '@mui/icons-material/Work';
 import PersonIcon from '@mui/icons-material/Person';
-import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ForumIcon from '@mui/icons-material/Forum';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 // Styles
 import styles from './Sidebar.module.css';
 

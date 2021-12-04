@@ -1,10 +1,6 @@
 // Components
-import PropTypes from 'prop-types';
-import DownloadIcon from '@mui/icons-material/Download';
-import { CircularProgress, Typography } from '@mui/material';
 import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import { Box, height } from '@mui/system';
 // Styles
 import styles from './AboutPage.module.css';
 import { Education } from './Education/Education';
